@@ -1,0 +1,99 @@
+<!-- 10 pints, with bonus? 15 points -->
+<!-- Develop a form as shown in hw1.png -->
+<!-- 
+    Points break down
+    First name with label click 1pt
+    Last name with label click 1pt
+    Email with label click 1pt
+    Phone number with number formatting and label click 1pt
+    Feedback with exact width and height and label click 1pt
+    Gender with label click 1pt
+    Hobbies with label click 1 pt
+    Submit button 1pt
+    Formatting 1pt
+    Add heading on the top for registration 1pt
+    Bonus:
+        Clicking on Register button should show an alert saying "Successfully Registered!"
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Please</title>
+  </head>
+  <body>
+    <table>
+      <th colspan="2"><h2>Registration</h2></th>
+      <tbody>
+        <tr>
+          <td>
+            <label for="First Name">First Name</label>
+          </td>
+          <td>
+            <input type="text" name="First Name" id="First Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Last Name">Last Name</label>
+          </td>
+          <td>
+            <input type="text" name="Last Name" id="Last Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td>
+            <input type="text" name="Email" id="Email" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Phone Number">Phone Number</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="Phone Number"
+              id="Phone Number"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Feedback">Feedback</label>
+          </td>
+          <td>
+            <textarea name="Feedback" id="1" cols="16" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Please select your gender:</td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Please select your Hobbies:</td>
+          <td>
+            <input type="checkbox" id="Badminton" name="Badminton" />
+            <label for="Badminton">Badminton</label><br />
+            <input type="checkbox" id="Soccer" name="Soccer" />
+            <label for="Soccer">Soccer</label><br />
+            <input type="checkbox" id="Swimming" name="Swimming" />
+            <label for="Swimming">Swimming</label><br />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <button type="Submit">Submit</button>
+  </body>
+</html>
