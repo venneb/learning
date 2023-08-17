@@ -7,6 +7,7 @@
 ## Staging files
 
 > git add .
+
 > git add fileName/folderName
 
 ## Committing changes
