@@ -1,0 +1,32 @@
+/* tag based styling */
+p {
+	/* background-color: yellow; */
+	margin: 0;
+}
+
+/* attribute based styling */
+#card {
+	/* background-color: brown; */
+	color: white;
+}
+
+/* class based styling */
+.cardContainer {
+	/* With pure html & css height is a preferred */
+	height: 100px;
+	width: 200px;
+	border: red 1px solid;
+	/* border-color: red;
+	border-width: 1px;
+	border-style: solid; */
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* Use an id when you want to differentiate the styling between two different elements */
+#purple {
+	background-color: purple;
+	color: white;
+}
